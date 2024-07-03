@@ -1,0 +1,26 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    $background-color-dark 0%,
+    #2f2f2f 100%
+  );
+}
+
+button {
+  background-color: $background-color-dark;
+  color: white;
+  padding: pxToRem(6) pxToRem(20);
+  border: {
+    style: solid;
+    color: $board-color;
+    width: pxToRem(2);
+    height: pxToRem(2);
+    radius: pxToRem(20);
+  }
+  font-size: pxToRem(14);
+}
