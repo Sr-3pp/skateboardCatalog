@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <svg class="icon">
-    <use :href="`/icons/${icon}.svg#s`" />
+    <use :href="`./icons/${icon}.svg#s`" />
   </svg>
 </template>
 

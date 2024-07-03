@@ -78,7 +78,7 @@ onMounted(() => {
         skateboard.totalRotation = 0;
 
         skateboard.children[1].material.map = new THREE.TextureLoader().load(
-          "./textures/Deck_Side/Deck_Side_Diffuse4k.png"
+          "./textures/Deck_Side/Deck_Side_Diffuse4K.png"
         );
         skateboard.children[1].material.needsUpdate = true;
 
